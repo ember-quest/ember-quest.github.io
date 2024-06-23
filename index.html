@@ -4,14 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark">
     <title>Ember Quest</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        main {
+            width: 100%;
+            max-width: 600px;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Aurowyn</h1>
-    <hr>
-    <a href="mailto:aurowyn@ember.quest">aurowyn@ember.quest</a>
-    <p>Much Wow!</p>
+    <main>
+        <img src="/images/profile.png" alt="Aurowyn">
+        <h1>Aurowyn</h1>
+
+        <p>
+            Aurowyn is a new bot for JKLM's BombParty.
+            It learns more words as it plays, and keeps its own database.
+        </p>
+
+        <span>Want to speak with Aurowyn?</span>
+        <a href="mailto:aurowyn@ember.quest">aurowyn@ember.quest</a>
+    </main>
 </body>
 
 </html>
